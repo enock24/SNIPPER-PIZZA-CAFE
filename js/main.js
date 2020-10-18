@@ -10,3 +10,8 @@ $(document).ready(function() {
       event.preventDefault();
     });
   });
+  var pizzaFlavour = ["Berry", "Butternut Squash", "Chicken", "Humus", "Turkish Ground"];
+  var pizzaSize = ["Regular", "Medium", "Large"];
+  var pizzaCrust = ["Thin crust", "Thick crust", "Deep crust", "Stuffed crust"];
+  var pizzaTopping = ["Onion", "Mushroom", "bacon", "black olives"];
+  
