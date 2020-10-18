@@ -6,7 +6,7 @@ $(document).ready(function() {
       var topping = $("#pizzatopping :selected");
       var number = $("#number");
   
-      getPick(flavour, size, crust, topping, number);
+      getOrder(flavour, size, crust, topping, number);
       event.preventDefault();
     });
   
@@ -73,8 +73,8 @@ function getAmount(flavour, size, crust, topping, number) {
   prompt("Enter your phone number");
   alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
 }
-function getPick() {
-function getPick(flavour, size, crust, topping, number) {
+function getOrder() {
+function getOrder(flavour, size, crust, topping, number) {
   var results =
     (getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
   (parseInt(flavour.val()) +
@@ -107,14 +107,3 @@ function getPick(flavour, size, crust, topping, number) {
 }
 };
 });
-// $(document).ready(function() {
-//   $("#make-delivery").click(function(event) {
-//     var flavour = $("#pizzaflavour :selected");
-//     var size = $("#pizzasize :selected");
-//     var crust = $("#pizzacrust :selected");
-//     var topping = $("#pizzatopping :selected");
-//     var number = $("#number");
-//     getAmount(flavour, size, crust, topping, number);
-//     event.preventDefault();
-//   });
-// });

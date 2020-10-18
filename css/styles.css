@@ -2,11 +2,14 @@
     background-image: url("../images/homemade-pizza-tomatoes-mozzarella-basil-top-view-wit-copy-space-dark-stone-table-92904612p.jpg");
     color:white;
     padding-top: 150px;
+    font-weight: bolder;
 }
 #varieties{
     background-image: url("../images/food-ingredients-spices-cooking-delicious-italian-pizza-mushrooms-tomatoes-cheese-onion-oil-pepper-salt-basil-grater-olive-114683943pp.jpg");
-    color: white;
+    /* color: white; */
     padding-top: 250px;
+    text-align: center;
+    font-weight:bolder;
     
 }
 #contact-us{
