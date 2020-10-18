@@ -1,12 +1,12 @@
 #Home{
     background-image: url("../images/homemade-pizza-tomatoes-mozzarella-basil-top-view-wit-copy-space-dark-stone-table-92904612p.jpg");
     color:white;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 #varieties{
     background-image: url("../images/food-ingredients-spices-cooking-delicious-italian-pizza-mushrooms-tomatoes-cheese-onion-oil-pepper-salt-basil-grater-olive-114683943pp.jpg");
     color: white;
-    padding-top: 200px;
+    padding-top: 250px;
     
 }
 #contact-us{
@@ -15,6 +15,7 @@
 }
 #order{
     background-image: url(../images/download\ \(2\).jpeg3);
+    color:white
 }
 .bar{
     position: fixed;
