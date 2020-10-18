@@ -6,7 +6,7 @@
 }
 #varieties{
     background-image: url("../images/food-ingredients-spices-cooking-delicious-italian-pizza-mushrooms-tomatoes-cheese-onion-oil-pepper-salt-basil-grater-olive-114683943pp.jpg");
-    color:whitesmoke;
+    /* color:whitesmoke; */
     padding-top: 250px;
     text-align: center;
     font-weight:bolder;
@@ -18,10 +18,17 @@
 }
 #order{
     background-image: url(../images/download\ \(2\).jpeg3);
-    color:white
+    color:white;
+    background-image:no-repeat;
 }
 .bar{
     position: fixed;
     text-align: center;
     background-color: olivedrab;
+}
+.myform{
+    background-color: turquoise;
+}
+#Contact{
+    background-color: teal;
 }
