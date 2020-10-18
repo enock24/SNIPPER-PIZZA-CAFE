@@ -16,7 +16,6 @@ My website is not quite responsive, but I am working on  it making it work bette
 - HTML5
 - CSS3
 - jQuery
--js
 ## Support and contact details
 - My Technical Mentor:Sylvia Mbugua
 - My contacts:+254724916032
