@@ -17,8 +17,8 @@
     background-color:olivedrab
 }
 #order{
-    background-image: url(../images/download\ \(2\).jpeg3);
-    color:white;
+    /* background-image: url(../images/download\ \(2\).jpeg3); */
+    /* color:white; */
     background-image:no-repeat;
 }
 .bar{
@@ -31,4 +31,6 @@
 }
 #Contact{
     background-color: teal;
+    padding-left: 15px;
+    padding-right: 15px;
 }
