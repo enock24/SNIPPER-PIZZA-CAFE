@@ -68,12 +68,12 @@ function getAmount(flavour, size, crust, topping, number) {
       results +
       " Thanks for your order,welcome again!"
   );
-  // prompt("Enter your location");
-  // prompt("Enter your name");
-  // prompt("Enter your phone number");
-  // alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
+  prompt("Enter your location");
+  prompt("Enter your name");
+  prompt("Enter your phone number");
+  alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
 };
-function getPick() {
+// function getPick() {
 function getPick(flavour, size, crust, topping, number) {
   var results =
     (getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
@@ -129,5 +129,5 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
-}
-alert(getPick)
+//}
+// alert(getPick)
